@@ -1,0 +1,80 @@
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="container">
+<p id="demo">20%</p>
+
+<div class="w3-light-grey">
+ 
+  <div id="myBar" class="w3-container w3-green" style="height:10px;width:300px"></div>
+  </div>
+
+<p id="demo1">20%</p>
+<div class="w3-light-grey">
+ 
+  <div id="myBar1" class="w3-container w3-green" style="height:10px;width:300px"></div>
+  </div>
+
+<p id="demo2">20%</p>
+<div class="w3-light-grey">
+ 
+  <div id="myBar2" class="w3-container w3-green" style="height:10px;width:300px"></div>
+  </div>
+</div>
+
+
+<script>
+function myFunction() {
+  var elem = document.getElementById("myBar");   
+  var width = 10;
+  var id = setInterval(frame, 20);
+  function frame() {
+    if (width >= 70) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      document.getElementById("demo").innerHTML = width * 1  + '%';
+    }
+  }
+}
+
+function myFunction1() {
+  var elem = document.getElementById("myBar1");   
+  var width = 10;
+  var id = setInterval(frame, 20);
+  function frame() {
+    if (width >= 90) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      document.getElementById("demo1").innerHTML = width * 1  + '%';
+    }
+  }
+}
+
+function myFunction2() {
+  var elem = document.getElementById("myBar2");   
+  var width = 10;
+  var id = setInterval(frame, 20);
+  function frame() {
+    if (width >= 90) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      document.getElementById("demo2").innerHTML = width * 1  + '%';
+    }
+  }
+}
+
+   myFunction();
+myFunction1();
+myFunction2();
+</script>
+

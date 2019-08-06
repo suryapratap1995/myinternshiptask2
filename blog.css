@@ -1,0 +1,371 @@
+.header
+{
+
+    width: 1293px;
+    height: 67px;
+    border: outset;
+    margin: -11px 0px 0px -9px;
+background-color:white;
+}
+
+.h1
+{
+
+    float: left;
+    display: inline;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 169px;
+}
+.nav
+{
+float: right;
+    font-family: serif;
+    margin-top: 32px;
+    margin-right: 113px;;
+}
+.nav li
+{
+display:inline;
+margin:10px;
+}
+.nav li a
+{
+text-decoration: none;
+    color: lightslategrey;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: serif;
+
+}
+.nav li a:hover
+{
+background-color:black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.div1
+{
+height:auto;
+width:100%;
+border:1px solid white;
+}
+.new
+{
+height: 80px;
+    width: 700px;
+    
+    margin: 52px 0px 0px 264px;
+}
+.hn
+{
+color: black;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 46px;
+    font-family: sans-serif;
+}
+.div2
+{
+height:600px;
+width:100%;
+
+}
+.imageblog
+{
+height: 515px;
+    width: 997px;
+    border: groove;
+    margin: 2px 0px 0px 134px;
+}
+.blog
+{
+
+    height: 256px;
+    width: 496px;
+    display: inline;
+    float: left;
+}
+.image
+{
+    height: 256px;
+    width: 496px;
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+ }
+.image:hover {
+  height: 510px;
+    width: 496px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(360deg);
+}
+/*#loading:hover {
+		-webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(360deg);
+		}
+}
+/*#loading:hover
+{
+animation:stop;
+}*/
+.h3
+{
+color: black;
+    text-align: center;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+.pp
+{
+text-align: center;
+    color: slategray;
+    font-size: 17px;
+    font-family: serif;
+margin-top:25px;
+}
+.date
+{
+color: initial;
+    margin-left: 27px;
+    margin-top: 26px;
+}
+.image2
+{
+    height: 256px;
+    width: 496px;
+-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+ 
+.image2:hover
+ {
+  height: 200px;
+    width: 200px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(360deg);
+}
+
+
+
+
+       9contact
+
+
+.div3
+{
+height:auto;
+width:100%;
+border:1px solid black;
+}
+.email
+{
+width: 936px;
+    height: 107px;
+   
+    margin-top: 62px;
+    margin-left: 163px;
+    background-color: black;
+
+}
+.td
+{
+height: 36px;
+    width: 601px;
+    margin: 31px 0px 0px 152px
+}
+.submit
+{
+color: white;
+    background-color: slategrey;
+    font-size: 16px;
+    padding: 7px 24px 7px 22px;
+}
+.div4
+{
+background: url(Img11.jpg);
+  background-repeat: no-repeat;
+  background-size:100%,100%;
+border:1px solid black;
+height:500px;
+width:100%;
+}
+.contact
+{
+color: lightgrey;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 8px 0px 0px 0px;
+}
+.get
+{
+color: white;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 2px;
+}
+.form
+{
+height: 371px;
+    width: 494px;
+    border: 1px solid black;
+    float: left;
+    margin: 17px 0px 0px 95px;
+background-color:white;
+}
+.find
+{
+color: black;
+    margin: 39px 0px 0px 45px;
+    font-size: 26px
+}
+.dolor
+{
+font-family: sans-serif;
+    margin: 20px 0px 0px 48px;
+    color: gray;
+    font-size: 18px;
+}
+.icon
+{
+    margin-left: 36px;
+    display: inline-flex;
+    text-decoration: none;
+    margin-top: 16px;
+}
+
+.fa
+ {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 22px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: slategrey;
+    padding: 5px 3px 0px 10px;
+    text-decoration: none;
+}
+.input
+{
+height: 32;
+    width: 229px;
+    margin: 47px 0px 0px 11px;
+}
+.subject
+{
+height: 40px;
+    width: 402px;
+    margin: 37px 0px 0px 11px;
+    border: none;
+}
+.area
+{
+height: 40px;
+    width: 402px;
+    margin: 37px 0px 0px 11px;
+    border: none;
+}
+.here
+{
+color: white;
+    margin: 28px 0px 0px 25px;
+    padding: 8px 23px 8px 23px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

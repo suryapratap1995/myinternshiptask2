@@ -1,0 +1,249 @@
+
+.header
+{
+
+    width: 1293px;
+    height: 67px;
+    border: outset;
+    margin: -11px 0px 0px -9px;
+background-color:white;
+}
+
+.h1
+{
+
+    float: left;
+    display: inline;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 169px;
+}
+.nav
+{
+float: right;
+    font-family: serif;
+    margin-top: 32px;
+    margin-right: 113px;;
+}
+.nav li
+{
+display:inline;
+margin:10px;
+}
+.nav li a
+{
+text-decoration: none;
+    color: lightslategrey;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: serif;
+
+}
+.nav li a:hover
+{
+background-color:black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.div1
+{
+height:auto;
+width:100%;
+border:2px solid black;
+}
+.div2
+{
+height: 600px;
+    width: 1264px;
+    /*border: 2px solid black;*/
+}
+.what
+{
+height: 116px;
+    width: 600px;
+    
+    margin: 74px 0px 0px 329px;
+}
+.p
+{
+font-family: serif;
+    text-align: center;
+    margin-top: 32px;
+    color: lightslategrey;
+    font-size: 14px;
+}
+.hi
+{
+text-align: center;
+    margin-top: -10px;
+    font-size: 38px;
+    font-family: serif;;
+}
+.block
+{
+height: 277px;
+    width: 300px;
+   
+    display: inline;
+    float: left;
+    margin: 39px 0px 0px 89px;
+    background-color: lightgrey;
+}
+.block:hover
+{
+background-color:black;
+color:white;
+}
+.avatar {
+ vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 19px 0px 0px 99px;
+}
+.pb
+{
+color: darkslategray;
+    margin: 30px 0px 0px 23px;
+    font-size: 17px;
+    font-family: serif;
+}
+.h4
+{
+font-family: serif;
+    color: unset;
+    text-align: center;
+}
+.butt
+{
+height: 53px;
+    width: 121px;
+    
+    margin: 349px 0px 0px 589px;
+}
+.button
+{
+color: black;
+    font-size: 39px;
+background-color:darkgray;
+padding:0px 0px 0px 0px;
+}
+.button:hover
+{
+color:white;
+background-color:black;
+
+}
+.div3
+{
+background: url(Img11.jpg);
+  background-repeat: no-repeat;
+  background-size:100%,100%;
+
+width:1266px;
+height:400px;
+border:1px solid black;
+}
+.num
+{
+height: 170px;
+    width: 220px;
+    border: 1px solid black;
+    display: inline;
+    float: left;
+    margin: 122px 0px 0px 75px;
+    background-color: dimgrey;
+}
+.award{
+color: white;
+    font-size: 60px;
+    margin: 26px 0px 0px 0px;
+    font-family: sans-serif;
+    text-align: center;
+
+
+}
+.hr
+{
+display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 73px;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 78px;
+}
+
+.happy
+{
+color: honeydew;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

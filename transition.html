@@ -1,0 +1,32 @@
+<html>
+<head>
+<style> 
+img {
+  height: 200px;
+    width: 200px;
+  
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+  width: 600px;
+  height: 600px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+}
+</style>
+</head>
+<body>
+
+<h1>Transition + Transform</h1>
+
+<p>Hover over the div element below:</p>
+
+<img src="Img9.jpg" class="img">
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
+
